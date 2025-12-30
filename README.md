@@ -99,5 +99,5 @@ Overall, results demonstrate that **dynamic adaptation over time** can outperfor
 
 ---
 
-## Project Structure
+
 
