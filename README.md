@@ -54,16 +54,11 @@ The problem is modeled as an MDP with:
   - Selecting the next price from a discretized price grid
 
 - **Reward**  
-  - Revenue:  
-    \[
-    R_t = p_t \times q_t
-    \]
+  - Revenue: `R_t = p_t × q_t`
 
 - **Transition Dynamics**  
-  - Simulated using a **constant elasticity demand model**:
-    \[
-    q_t = A_t \cdot p_t^{-\epsilon} + \varepsilon_t
-    \]
+  - Simulated using a **constant elasticity demand model**:  
+    `q_t = A_t · p_t^{-ε} + ε_t`
 
 ### Solution Method
 
